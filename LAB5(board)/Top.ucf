@@ -1,0 +1,10 @@
+NET "mainClk" LOC = "C9" | IOSTANDARD = LVCMOS33;
+NET "led<0>" loc = "F12" | IOSTANDARD = LVTTL | SLEW=SLOW | DRIVE = 8;
+NET "led<1>" loc = "E12" | IOSTANDARD = LVTTL | SLEW=SLOW | DRIVE = 8;
+NET "led<2>" loc = "E11" | IOSTANDARD = LVTTL | SLEW=SLOW | DRIVE = 8;
+NET "led<3>" loc = "F11" | IOSTANDARD = LVTTL | SLEW=SLOW | DRIVE = 8;
+NET "led<4>" loc = "C11" | IOSTANDARD = LVTTL | SLEW=SLOW | DRIVE = 8;
+NET "led<5>" loc = "D11" | IOSTANDARD = LVTTL | SLEW=SLOW | DRIVE = 8;
+NET "led<6>" loc = "E9" | IOSTANDARD = LVTTL | SLEW=SLOW | DRIVE = 8;
+NET "led<7>" loc = "F9" | IOSTANDARD = LVTTL | SLEW=SLOW | DRIVE = 8;
+NET "reset" loc = "L13" | IOSTANDARD = LVTTL | PULLUP;

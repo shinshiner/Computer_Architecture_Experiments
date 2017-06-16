@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/codes/LAB5(shangban)/Top_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="Top_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/Top_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/led" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">led[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/mainClk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mainClk</obj_property>
+      <obj_property name="ObjectShortName">mainClk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/chreg1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">chreg1</obj_property>
+      <obj_property name="ObjectShortName">chreg1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/chreg2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">chreg2</obj_property>
+      <obj_property name="ObjectShortName">chreg2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/chPC" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">chPC</obj_property>
+      <obj_property name="ObjectShortName">chPC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+   </wvobject>
+</wave_config>

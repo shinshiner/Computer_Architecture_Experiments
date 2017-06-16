@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/codes/LAB5(shangban)/Top_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="Top_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="25" />
+   <wvobject fp_name="/Top_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/led" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">led[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/mainClk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mainClk</obj_property>
+      <obj_property name="ObjectShortName">mainClk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/chreg1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">chreg1</obj_property>
+      <obj_property name="ObjectShortName">chreg1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/chreg2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">chreg2</obj_property>
+      <obj_property name="ObjectShortName">chreg2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/chPC" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">chPC</obj_property>
+      <obj_property name="ObjectShortName">chPC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/myRegister/clock_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock_in</obj_property>
+      <obj_property name="ObjectShortName">clock_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/myRegister/regWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">regWrite</obj_property>
+      <obj_property name="ObjectShortName">regWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/myRegister/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/myRegister/writeReg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">writeReg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">writeReg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/myRegister/readReg1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">readReg1[25:21]</obj_property>
+      <obj_property name="ObjectShortName">readReg1[25:21]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/myRegister/readReg2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">readReg2[20:16]</obj_property>
+      <obj_property name="ObjectShortName">readReg2[20:16]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/myRegister/writeData" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">writeData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writeData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/myRegister/readData1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">readData1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readData1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/myRegister/readData2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">readData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readData2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/myRegister/reg1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">reg1[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/myRegister/reg2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">reg2[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/myRegister/reg3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg3[1:0]</obj_property>
+      <obj_property name="ObjectShortName">reg3[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/myRegister/reg4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg4[1:0]</obj_property>
+      <obj_property name="ObjectShortName">reg4[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/myRegister/reg5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg5[1:0]</obj_property>
+      <obj_property name="ObjectShortName">reg5[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/myRegister/reg6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg6[1:0]</obj_property>
+      <obj_property name="ObjectShortName">reg6[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/myRegister/reg7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg7[1:0]</obj_property>
+      <obj_property name="ObjectShortName">reg7[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/myRegister/i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Top_tb/uut/myRegister/regFile" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regFile[7:0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">regFile[7:0,31:0]</obj_property>
+   </wvobject>
+</wave_config>
