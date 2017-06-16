@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="d:/Downloads/codes/lab62/test_top_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="48" />
+   <wvobject fp_name="/test_top/CLOCK_IN" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLOCK_IN</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_IN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/RESET" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myReg/regFile" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regFile[31:0,31:0]</obj_property>
+      <obj_property name="ObjectShortName">regFile[31:0,31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[31]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[31,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[31,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[30]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[30,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[30,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[29]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[29,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[29,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[28]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[28,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[28,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[27]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[27,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[27,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[26]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[26,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[26,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[25]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[25,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[25,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[24]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[24,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[24,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[23]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[23,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[23,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[22]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[22,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[22,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[21]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[21,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[21,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[20]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[20,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[20,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[19]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[19,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[19,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[18]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[18,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[18,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[17]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[17,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[17,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[16]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[16,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[16,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[15]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[15,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[15,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[14]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[14,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[14,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[13]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[13,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[13,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[12]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[12,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[12,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[11]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[11,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[11,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[10]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[10,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[10,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[9,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[8,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[7,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[6,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[5,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[4,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[3,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[2,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[1,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myReg/regFile[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,31:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[0,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myDataMem/memFile" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">memFile[0:127,31:0]</obj_property>
+      <obj_property name="ObjectShortName">memFile[0:127,31:0]</obj_property>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[0,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[1,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[2,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[3,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[4,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[5,31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[6,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[7,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[8,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[9,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[10]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[10,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[10,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[11]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[11,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[11,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[12]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[12,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[12,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[13]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[13,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[13,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[14]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[14,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[14,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[15]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[15,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[15,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[16]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[16,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[16,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[17]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[17,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[17,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[18]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[18,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[18,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[19]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[19,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[19,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[20]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[20,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[20,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[21]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[21,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[21,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[22]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[22,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[22,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[23]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[23,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[23,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[24]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[24,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[24,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[25]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[25,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[25,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[26]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[26,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[26,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[27]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[27,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[27,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[28]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[28,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[28,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[29]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[29,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[29,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[30]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[30,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[30,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[31]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[31,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[31,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[32]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[32,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[32,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[33]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[33,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[33,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[34]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[34,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[34,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[35]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[35,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[35,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[36]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[36,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[36,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[37]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[37,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[37,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[38]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[38,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[38,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[39]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[39,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[39,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[40]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[40,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[40,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[41]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[41,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[41,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[42]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[42,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[42,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[43]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[43,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[43,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[44]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[44,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[44,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[45]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[45,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[45,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[46]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[46,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[46,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[47]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[47,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[47,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[48]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[48,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[48,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[49]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[49,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[49,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[50]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[50,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[50,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[51]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[51,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[51,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[52]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[52,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[52,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[53]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[53,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[53,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[54]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[54,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[54,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[55]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[55,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[55,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[56]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[56,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[56,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[57]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[57,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[57,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[58]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[58,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[58,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[59]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[59,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[59,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[60]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[60,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[60,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[61]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[61,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[61,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[62]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[62,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[62,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[63]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[63,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[63,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[64]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[64,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[64,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[65]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[65,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[65,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[66]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[66,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[66,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[67]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[67,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[67,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[68]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[68,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[68,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[69]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[69,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[69,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[70]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[70,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[70,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[71]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[71,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[71,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[72]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[72,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[72,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[73]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[73,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[73,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[74]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[74,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[74,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[75]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[75,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[75,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[76]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[76,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[76,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[77]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[77,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[77,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[78]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[78,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[78,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[79]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[79,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[79,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[80]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[80,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[80,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[81]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[81,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[81,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[82]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[82,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[82,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[83]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[83,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[83,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[84]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[84,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[84,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[85]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[85,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[85,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[86]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[86,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[86,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[87]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[87,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[87,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[88]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[88,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[88,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[89]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[89,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[89,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[90]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[90,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[90,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[91]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[91,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[91,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[92]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[92,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[92,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[93]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[93,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[93,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[94]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[94,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[94,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[95]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[95,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[95,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[96]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[96,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[96,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[97]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[97,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[97,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[98]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[98,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[98,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[99]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[99,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[99,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[100]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[100,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[100,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[101]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[101,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[101,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[102]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[102,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[102,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[103]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[103,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[103,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[104]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[104,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[104,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[105]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[105,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[105,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[106]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[106,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[106,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[107]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[107,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[107,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[108]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[108,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[108,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[109]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[109,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[109,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[110]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[110,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[110,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[111]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[111,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[111,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[112]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[112,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[112,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[113]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[113,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[113,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[114]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[114,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[114,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[115]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[115,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[115,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[116]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[116,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[116,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[117]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[117,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[117,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[118]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[118,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[118,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[119]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[119,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[119,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[120]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[120,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[120,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[121]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[121,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[121,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[122]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[122,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[122,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[123]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[123,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[123,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[124]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[124,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[124,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[125]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[125,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[125,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[126]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[126,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[126,31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_top/uut/myDataMem/memFile[127]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[127,31:0]</obj_property>
+         <obj_property name="ObjectShortName">memFile[127,31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myReg/clock_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock_in</obj_property>
+      <obj_property name="ObjectShortName">clock_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myReg/regWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">regWrite</obj_property>
+      <obj_property name="ObjectShortName">regWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myReg/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myReg/writeReg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">writeReg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">writeReg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myReg/readReg1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">readReg1[25:21]</obj_property>
+      <obj_property name="ObjectShortName">readReg1[25:21]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myReg/readReg2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">readReg2[20:16]</obj_property>
+      <obj_property name="ObjectShortName">readReg2[20:16]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myReg/writeData" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">writeData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writeData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myReg/readData1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">readData1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readData1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myReg/readData2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">readData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readData2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myReg/i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myInstMem/address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">address[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myInstMem/CLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myInstMem/RESET" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myInstMem/readData" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">readData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myInstMem/memBuffer" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">memBuffer[0:63,31:0]</obj_property>
+      <obj_property name="ObjectShortName">memBuffer[0:63,31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myALU/input1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">input1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myALU/input2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">input2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myALU/aluCtr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">aluCtr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">aluCtr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myALU/zero" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myALU/aluRes" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">aluRes[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluRes[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/IF_Inst" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IF_Inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_Inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myCtr/opCode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">opCode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">opCode[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myCtr/regDst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">regDst</obj_property>
+      <obj_property name="ObjectShortName">regDst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myCtr/aluSrc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">aluSrc</obj_property>
+      <obj_property name="ObjectShortName">aluSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myCtr/memToReg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">memToReg</obj_property>
+      <obj_property name="ObjectShortName">memToReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myCtr/regWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">regWrite</obj_property>
+      <obj_property name="ObjectShortName">regWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myCtr/memRead" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">memRead</obj_property>
+      <obj_property name="ObjectShortName">memRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myCtr/memWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">memWrite</obj_property>
+      <obj_property name="ObjectShortName">memWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myCtr/branch" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">branch</obj_property>
+      <obj_property name="ObjectShortName">branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myCtr/aluOp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">aluOp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">aluOp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myCtr/jump" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">jump</obj_property>
+      <obj_property name="ObjectShortName">jump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/IF_ID_Inst" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IF_ID_Inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_Inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myALUCrr/aluOp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">aluOp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">aluOp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myALUCrr/funct" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">funct[5:0]</obj_property>
+      <obj_property name="ObjectShortName">funct[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myALUCrr/aluCtr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">aluCtr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">aluCtr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myDataMem/clock_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock_in</obj_property>
+      <obj_property name="ObjectShortName">clock_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myDataMem/address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">address[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myDataMem/memWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">memWrite</obj_property>
+      <obj_property name="ObjectShortName">memWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myDataMem/memRead" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">memRead</obj_property>
+      <obj_property name="ObjectShortName">memRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myDataMem/writeData" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">writeData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writeData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/myDataMem/readData" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">readData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/ID_EX_InstLow" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ID_EX_InstLow[15:11]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_InstLow[15:11]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_top/uut/ID_EX_InstHigh" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ID_EX_InstHigh[20:16]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_InstHigh[20:16]</obj_property>
+   </wvobject>
+</wave_config>
